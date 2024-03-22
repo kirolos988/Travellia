@@ -1,0 +1,143 @@
+.SearchComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 5rem 0rem; */
+  min-height: 100vh;
+  position: relative;
+  z-index: 200;
+}
+
+.content {
+  padding: 20px 10px 0;
+  text-align: center;
+}
+.content-primaryHeading {
+  font-weight: 900;
+  font-family: Arial, Tahoma, sans-serif;
+  margin-bottom: 1.25rem;
+  font-size: 3rem;
+}
+
+.search-bar {
+  margin-top: 1.25rem;
+  position: relative;
+  width: 55%;
+  margin: Auto;
+  height: 4rem;
+}
+.search-bar .SearchComponentIcon {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.1rem;
+  font-size: 1.063rem;
+}
+.selectAll-tab {
+  text-decoration-line: underline;
+}
+.search-bar input {
+  width: 100%;
+  z-index: 1;
+  height: 3.5rem;
+  padding: 1.8rem 3rem;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+  outline: none;
+}
+.hideDropdownwnClass {
+  border-radius: 55px;
+  box-shadow: 0 5px 6px 2px rgba(0, 0, 0, 0.25);
+}
+.showDropdownClass {
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: none;
+}
+.showDropdownClass:focus {
+  border: none;
+}
+.hideSearchButton {
+  display: none;
+}
+.tabsContainer {
+  display: flex;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: #0000007a;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+.tabsContainer .tab:hover {
+  color: #000;
+}
+.tabsContainer .tab {
+  padding: 20px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.active {
+  color: #000;
+  border-width: 10px;
+}
+.searchIcon {
+  width: 18px;
+  height: 18px;
+  margin: 0px 8px;
+  align-items: center;
+}
+
+.search-bar .searchLink {
+  margin: 0.3rem;
+  width: 7rem;
+  background-color: #34e0a1;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  right: 0.1rem;
+  top: 0;
+  height: 3.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+.search-bar .searchLink:hover {
+  background-color: #34e0a1d0;
+}
+
+.SearchComponent video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+.tabSearch {
+  font-size: 1rem;
+}
+
+@media (width<770px) {
+  .tabsContainer .tab {
+    padding: 10px 5px;
+  }
+  .search-bar {
+    width: 95%;
+  }
+  .searchIcon {
+    width: 15px;
+    height: 15px;
+  }
+  .tabSearch {
+    font-size: 12px;
+  }
+  .content h1 {
+    font-size: 1.8rem;
+  }
+}

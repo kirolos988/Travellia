@@ -1,0 +1,40 @@
+.footer-wrapper-all {
+  background-color: #faf1ed;
+}
+.footer-wrapper-all li {
+  cursor: pointer;
+}
+.footer-wrapper-all li:hover {
+  color: black;
+  text-decoration: underline;
+}
+.footer-wrapper-all .footer-first-list,
+.footer-wrapper-all .footer-second-list,
+.footer-wrapper-all .footer-third-list,
+.footer-wrapper-all .footer-fourth-list,
+.footer-wrapper-all .footer-inlist {
+  font-size: 14px;
+}
+
+.footer-wrapper-all .travellya {
+  width: 38px;
+  height: 35px;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-wrapper-all .controlled-last-footer {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .footer-wrapper-all .footer-drops,
+  .footer-wrapper-all .footer-drops .drops-cont {
+    width: 100%;
+  }
+}
+
+/* @font-face {
+    font-family: 'TripRegular';
+    src: local('TripRegular'),url(./Trip-Sans-Font/trip-sans.otf);
+} */

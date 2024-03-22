@@ -1,0 +1,48 @@
+.owl-container {
+  overflow: hidden;
+}
+.owl-container h4 {
+  font-family: TripBold-700;
+}
+.owl {
+  margin: 3rem 0rem;
+  overflow: hidden;
+}
+.owl-title {
+  padding-left: 16px;
+  font-family: TripBold-700;
+}
+.carousel {
+  overflow: hidden !important;
+  cursor: grab;
+}
+.inner-carousel {
+  display: flex;
+}
+.item {
+  width: 300px;
+  height: 400px;
+  margin: 15px 10px;
+  color: black;
+  text-decoration: none;
+}
+.item img {
+  width: 300px;
+  height: 280px;
+  pointer-events: painted;
+}
+.item img:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.restaurant {
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin: 0%;
+}
+@media (width<770px) {
+  /* .owl-container{
+    display: none;
+  } */
+}

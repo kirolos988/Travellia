@@ -1,0 +1,17 @@
+@media print {
+  body {
+    font-size: 16px;
+  }
+
+.TicketWrapper  .CustomPrint{
+    display: none;
+  }
+.TicketWrapper  .btn{
+    display: none;
+  }
+.TicketWrapper  .customTicket{
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  
+}

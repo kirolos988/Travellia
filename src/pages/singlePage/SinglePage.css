@@ -1,0 +1,119 @@
+.singlePage-container {
+  padding: 0 !important;
+  background-color: #fff;
+}
+.category-details {
+  padding: 3rem 0;
+  max-width: 70% !important;
+  margin: 0 auto;
+}
+.about-location-section > div {
+  border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+}
+.about-description-text {
+  line-height: 1.8rem !important;
+  font-size: 1.1rem;
+}
+.category-details .details-heading {
+  font-size: 2.2rem;
+  font-family: TripBold-900;
+  margin-bottom: 1.4rem;
+}
+.singlePage-ratingReview-container {
+  padding-left: 1.3rem 0 !important;
+}
+.singlePageRatingReviews {
+  margin-bottom: -1.7rem;
+}
+.singlePage-images {
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  background-position: top;
+}
+.singlePage-main-image-container .single-hotels-left-images {
+  padding-right: 0;
+}
+.singlePage-heading-contacts-container {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  padding: 0 !important;
+}
+.singlePage-heading-contacts {
+  gap: 1.1rem;
+  align-items: center;
+}
+.singlePage-address-header {
+  font-family: tripRegular;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.availabilityButton-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.availabilityButton-container .availabilityButton {
+  /* padding: 0.6rem 1rem; */
+  background-color: #f1b718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  color: #000000;
+  border: none;
+  font-family: tripBold-600;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.reservation-btn-container .reservation-btn {
+  background-color: #f1b718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  color: #000000;
+  border: none;
+  font-family: tripBold-600;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.availabilityButton:hover {
+  background-color: #fdc735;
+}
+
+.singlePageIcon {
+  width: 20px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.singlePage-website-header .website-link,
+.singlePage-pen-header,
+.singlePage-phone-header .phone-link {
+  font-size: 1rem;
+  font-family: tripBold-700;
+  color: #000000;
+  text-decoration: none;
+}
+.reservation-btn-container {
+  justify-content: flex-end;
+}
+@media (width<770px) {
+  .singlePage-main-image-container .single-hotels-left-images {
+    padding: 0 !important;
+  }
+  .availabilityButton-container {
+    justify-content: flex-start;
+  }
+  .reservation-btn-container {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}
